@@ -14,11 +14,11 @@ function AtualizarJogadorAtual() {
  if (vezDoJogador == jogador1) {
 
   var jogador = document.querySelectorAll('div#container img')[0];
-  jogador.setAttribute("src","/img/X.png");
+  jogador.setAttribute("src","img/X.png");
  }
  else{
   var jogador = document.querySelectorAll('div#container img')[0];
-  jogador.setAttribute("src","/img/O.png");
+  jogador.setAttribute("src","img/O.png");
  }
 }
 
